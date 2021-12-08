@@ -519,18 +519,19 @@ body {
 .about__info-title,
 .about__contact-title {
 	font-weight: bold;
-	font-size: 30px;
-	line-height: 40px;
+	font-size: 24px;
+	line-height: 32px;
 	margin-bottom: 15px;
 }
 .about__info-text {
 	max-width: 542px;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 20px;
-	line-height: 30px;
+	font-size: 18px;
+	line-height: 27px;
 }
 .about__contact {
+	width: 400px;
 }
 
 .about__contact-list {
@@ -538,7 +539,7 @@ body {
 .about__contact-item {
 	margin-bottom: 20px;
 	font-weight: 500;
-	font-size: 19px;
+	font-size: 18px;
 	line-height: 26px;
 	padding-left: 40px;
 	position: relative;
