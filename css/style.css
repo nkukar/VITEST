@@ -46,16 +46,16 @@ body {
 	font-family: 'SF Pro Display';
 	font-weight: normal;
 	font-style: normal;
-	font-size: 28px;
-	line-height: 37px;
+	font-size: 20px;
+	line-height: 28px;
 	color: #000000;
 }
 .title {
 	font-weight: bold;
 	font-style: normal;
 	color: #000000;
-	font-size: 42px;
-	line-height: 50px;
+	font-size: 34px;
+	line-height: 44px;
 	position: relative;
 }
 .title::after {
@@ -65,19 +65,19 @@ body {
 	height: 5px;
 	background-color: rgba(5, 129, 162, 0.8);
 	border-radius: 12px;
-	bottom: -15px;
+	bottom: -10px;
 	left: 50%;
 	transform: translateX(-50%);
 }
 .title--blue {
 	font-weight: bold;
 	font-style: normal;
-	font-size: 42px;
-	line-height: 50px;
+	font-size: 34px;
+	line-height: 44px;
 	color: #018FE3;
 }
 .section--padding {
-	padding: 100px 0px 90px;
+	padding: 80px 0px 70px;
 }
 
 .container {
@@ -105,14 +105,14 @@ body {
 }
 
 .header__connection-tel {
-	padding-left: 37px;
+	padding-left: 28px;
 	position: relative;
 
 }
 .header__connection-tel::after {
 	content: '';
-	width: 22px;
-	height: 22px;
+	width: 20px;
+	height: 20px;
 	position: absolute;
 	background-image: url('../images/icon-tel.svg');
 	background-repeat: no-repeat;
@@ -123,14 +123,14 @@ body {
 	transform: translateY(-50%);
 }
 .header__connection-mail {
-	padding-left: 37px;
+	padding-left: 30px;
 	margin-left: 30px;
 	position: relative;
 }
 .header__connection-mail::after {
 	content: '';
-	width: 22px;
-	height: 17px;
+	width: 20px;
+	height: 15px;
 	position: absolute;
 	background-image: url('../images/icon-mail.svg');
 	background-repeat: no-repeat;
@@ -142,15 +142,15 @@ body {
 }
 
 .header__user-log-in {
-	padding-left: 37px;
+	padding-left: 24px;
 	font-size: 16px;
 	line-height: 20px;
 	position: relative;
 }
 .header__user-log-in::after {
 	content: '';
-	width: 16px;
-	height: 20px;
+	width: 14px;
+	height: 18px;
 	position: absolute;
 	background-image: url('../images/icon-lock.svg');
 	background-repeat: no-repeat;
@@ -161,7 +161,7 @@ body {
 	transform: translateY(-50%);
 }
 .header__user-registration {
-	padding-left: 37px;
+	padding-left: 28px;
 	font-size: 16px;
 	line-height: 20px;
 	margin-left: 30px;
@@ -169,8 +169,8 @@ body {
 }
 .header__user-registration::after {
 	content: '';
-	width: 22px;
-	height: 22px;
+	width: 20px;
+	height: 20px;
 	position: absolute;
 	background-image: url('../images/icon-user.svg');
 	background-repeat: no-repeat;
@@ -185,7 +185,7 @@ body {
 /* Main */
 
 .main {
-	padding: 60px 0px 370px;
+	padding: 50px 0px 240px;
 	background-image: url('../images/main-bg.jpg');
 	background-position: center;
 	background-size: cover;
@@ -199,15 +199,15 @@ body {
 }
 .menu__list {
 	display: flex;
-	font-size: 22px;
-	line-height: 26px;
+	font-size: 18px;
+	line-height: 24px;
 	align-items: center;
 	justify-content: end;
 	font-weight: 500;
-	margin-bottom: 270px;
+	margin-bottom: 240px;
 }
 .menu__list-item  + .menu__list-item{
-	margin-left: 40px;
+	margin-left: 30px;
 }
 .menu__list-link {
 }
@@ -215,23 +215,20 @@ body {
 }
 .main__info-title {
 	font-weight: bold;
-	font-size: 60px;
-	line-height: 66px;
-	
-	margin-bottom: 50px;
+	font-size: 50px;
+	line-height: 56px;
+	margin-bottom: 25px;
 }
 .main__info-subtitle {
 	max-width: 1050px;
-	font-size: 34px;
-	line-height: 46px;
-	font-size: 34px;
-	line-height: 46px;
-	margin-bottom: 40px;
+	font-size: 26px;
+	line-height: 34px;
+	margin-bottom: 34px;
 }
 .main__info-btn {
 	font-weight: 500;
-	font-size: 28px;
-	line-height: 46px;
+	font-size: 18px;
+	line-height: 30px;
 	color: #FFFFFF;
 	padding: 15px 30px;
 	background: #018FE3;
@@ -243,20 +240,20 @@ body {
 /* About */
 
 .work {
-	padding-top: 100px ;
+	padding-top: 80px ;
 }
 
 .work-title {
 	text-align: center;
-	margin-bottom: 65px;
+	margin-bottom: 44px;
 }
 
 .work__subtitle {
 	max-width: 1076px;
 	font-style: italic;
 	font-weight: normal;
-	font-size: 28px;
-	line-height: 37px;
+	font-size: 25px;
+	line-height: 34px;
 	text-align: center;
 	margin: 0 auto;
 	margin-bottom: 25px;
@@ -272,9 +269,9 @@ body {
 .count {
 	position: absolute;
 	top: 0;
-	left: -100px;
-	width: 70px;
-	height: 70px;
+	left: -75px;
+	width: 50px;
+	height: 50px;
 	color: rgba(5, 129, 162, 0.8);
 	border: 5px solid rgba(5, 129, 162, 0.8);
 	filter: drop-shadow(4px 4px 4px rgba(5, 129, 162, 0.15));
@@ -290,8 +287,8 @@ body {
 }
 .work-item__title {
 	font-weight: 600;
-	font-size: 34px;
-	line-height: 41px;
+	font-size: 28px;
+	line-height: 32px;
 	margin-bottom: 20px;
 }
 .work-item__text {
@@ -310,7 +307,7 @@ body {
 }
 .character-title {
 	text-align: center;
-	margin-bottom: 65px;
+	margin-bottom: 44px;
 }
 .chatacter-subtitle {
 	max-width: 1118px;
@@ -327,22 +324,22 @@ body {
 }
 .character__item {
 	max-width: 642px;
-	padding-left: 100px;
+	padding-left: 80px;
 	position: relative;
 	
 }
 .character__item-img {
 	position: absolute;
-	width: 70px;
-	height: 70px;
+	width: 50px;
+	height: 50px;
 	object-fit: cover;
 	left: 0px;
 	top: 0px;
 }
 .character__item-title {
 	font-weight: 600;
-	font-size: 34px;
-	line-height: 41px;
+	font-size: 28px;
+	line-height: 32px;
 	color: #000000;
 	margin-bottom: 20px;
 }
@@ -364,8 +361,8 @@ body {
 }
 .development__content-title {
 	font-weight: bold;
-	font-size: 42px;
-	line-height: 50px;
+	font-size: 34px;
+	line-height: 44px;
 	margin-bottom: 70px;
 	text-align: center;
 }
@@ -377,24 +374,28 @@ body {
 }
 .development__list-item {
 	margin-bottom: 60px;
-	padding-left: 100px ;
+	padding-left: 80px ;
 	position: relative;
 }
 .development__list-item img {
 	position: absolute;
 	top: 0px;
 	left: 0px;
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
 }
 .development__list-title {
 	margin-bottom: 20px;
 	font-weight: 600;
-	font-size: 34px;
-	line-height: 41px;
+	font-size: 28px;
+	line-height: 32px;
 }
 .development__list-text {
 	max-width: 730px;
-	font-size: 27px;
-	line-height: 30px;
+	font-size: 19px;
+	line-height: 28px;
+	padding: 0px 10px;
 }
 .developer-img img {
 	height: 100%;
@@ -422,10 +423,10 @@ body {
 .member-title {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 42px;
-	line-height: 50px;
+	font-size: 35px;
+	line-height: 40px;
 	color: #FFFFFF;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .member-subtitle {
 	color: #fff;
@@ -439,8 +440,9 @@ body {
 	padding: 15px 30px;
 	color: #018FE3;
 	font-weight: 500;
-	font-size: 28px;
-	line-height: 46px;
+	font-size: 18px;
+	line-height: 32px;
+	letter-spacing: 1.1px;
 }
 
 
@@ -451,11 +453,11 @@ body {
 
 .application-title {
 	text-align: center;
-	margin-bottom: 65px;
+	margin-bottom: 40px;
 }
 
 .application-text {
-	padding:50px 70px ;
+	padding:38px 30px ;
 	border: 2px solid rgba(0, 0, 0, 0.5);
 	border-radius: 10px;
 	text-align: center;
@@ -475,16 +477,25 @@ body {
 .application-item {
 	max-width: 411px;
 	position: relative;
-	padding-left: 100px;
+	padding-left: 70px;
 
 }
 .application-item img {
-	width: 70px;
-	height: 70px;
+	width: 50px;
+	height: 50px;
 	object-fit: cover;
 	position: absolute;
 	left: 0px;
 	top: 0;
+}
+.application-subtitle {
+	max-width: 700px;
+	text-align: center;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0 auto;
+	margin-bottom: 30px;
+
 }
 /* Aplication */  
 
@@ -508,16 +519,16 @@ body {
 .about__info-title,
 .about__contact-title {
 	font-weight: bold;
-	font-size: 36px;
-	line-height: 43px;
-	margin-bottom: 30px;
+	font-size: 30px;
+	line-height: 40px;
+	margin-bottom: 15px;
 }
 .about__info-text {
 	max-width: 542px;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 26px;
-	line-height: 35px;
+	font-size: 20px;
+	line-height: 30px;
 }
 .about__contact {
 }
@@ -525,11 +536,11 @@ body {
 .about__contact-list {
 }
 .about__contact-item {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	font-weight: 500;
-	font-size: 26px;
+	font-size: 19px;
 	line-height: 26px;
-	padding-left: 46px;
+	padding-left: 40px;
 	position: relative;
 
 }
@@ -537,11 +548,10 @@ body {
 .about-mail::after {
 	content: '';
 	position: absolute;
-	width: 26px;
-	height: 26px;
+	width: 25px;
+	height: 25px;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
 	left: 0px;
 	top: 50%;
 	transform: translateY(-50%);
@@ -570,7 +580,7 @@ body {
 	color: #fff;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 22px;
+	font-size: 16px;
 	line-height: 30px;
 }
 
@@ -584,6 +594,6 @@ body {
 }
 
 .footer__menu-link{
-	
+	font-size: 19px;
 }
 /* Footer */
