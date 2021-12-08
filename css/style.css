@@ -536,7 +536,7 @@ body {
 	line-height: 27px;
 }
 .about__contact {
-	width: 400px;
+	max-width: 400px;
 }
 
 .about__contact-list {
