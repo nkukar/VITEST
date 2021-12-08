@@ -6,7 +6,7 @@
 		 url('../fonts/SFProDisplay-Medium.woff') format('woff'),
 		 url('../fonts/SFProDisplay-Medium.ttf') format('truetype');
 	font-weight: 500;
-	font-style: normal;
+	font-style: normal
 }
 
 @font-face {
@@ -94,8 +94,8 @@ body {
 /* Header */
 .header {
 	padding: 25px 0px 24px;
-	font-size: 18px;
-	line-height: 21px;
+	font-size: 16px;
+	line-height: 20px;
 
 }
 .header__inner {
@@ -143,14 +143,14 @@ body {
 
 .header__user-log-in {
 	padding-left: 37px;
-	font-size: 18px;
-	line-height: 21px;
+	font-size: 16px;
+	line-height: 20px;
 	position: relative;
 }
 .header__user-log-in::after {
 	content: '';
-	width: 18px;
-	height: 22px;
+	width: 16px;
+	height: 20px;
 	position: absolute;
 	background-image: url('../images/icon-lock.svg');
 	background-repeat: no-repeat;
@@ -162,8 +162,8 @@ body {
 }
 .header__user-registration {
 	padding-left: 37px;
-	font-size: 18px;
-	line-height: 21px;
+	font-size: 16px;
+	line-height: 20px;
 	margin-left: 30px;
 	position: relative;
 }
