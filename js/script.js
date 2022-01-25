@@ -1,45 +1,65 @@
-// Scroll to Block
-function scrollTo(element) {
-	window.scroll({
-		left:0,
-		top: element.offsetTop,
-		behavior: 'smooth',
+//  Показ модального окна
+
+const modalBtns = document.querySelectorAll('.modal-active'),
+		modalContent = document.querySelector('.modal');
+
+console.log(modalBtns);
+
+modalBtns.forEach(item => {
+	item.addEventListener('click', () => {
+		modalContent.style.display = 'block';
+		document.body.style.overflow = 'hidden';
 	})
-}
-
-const buttonScroll = document.querySelectorAll('.menu__list-link');
-const positionBlock = document.querySelectorAll('section');
-const menuBtn = document.querySelector('.burger'),
-		menuList =  document.querySelector('.menu__list');
-buttonScroll.forEach (item => {
-	item.addEventListener('click', (e) => {
-		e.preventDefault();
-		if (menuList.classList.contains('menu__list--active')) {
-			document.querySelector('.menu__list').classList.remove('menu__list--active');
-			document.body.style.overflow ="";
+	modalContent.addEventListener('click', (e) => {
+		if(e.target.classList.contains('modal__inner')) {
+			modalContent.style.display = '';
+			document.body.style.overflow = '';
 		}
-		positionBlock.forEach(block => {
-			if(item.hash == (`#${block.id}`)) {
-				scrollTo(block)
-				
-			}
-			
-		})
-	} )
-})
-
-
-// Show menu
-
-
-
-menuBtn.addEventListener('click', () => {
-	menuList.classList.toggle('menu__list--active');
-	if (menuList.classList.contains('menu__list--active')) {
-		document.body.style.overflow ='hidden';
-	}else  {
-		document.body.style.overflow ="";
 		
-	}
+	})
 })
+
+
+
+
+
+
+
+// Слайдер в  products
+
+const sliderBtns = document.querySelectorAll('.products-btn'),
+		sliderContents = document.querySelectorAll('.products__item');
+
+function hide () {
+		sliderBtns.forEach(item => {
+			item.classList.remove('products-btn--active');
+
+		})
+		sliderContents.forEach(items => {
+			items.style.display = 'none';
+		})
+
+};
+
+
+function showContent (i) {
+	sliderContents[i].style.display = 'block';
+	sliderBtns[i].classList.add('products-btn--active');
+	
+}
+showContent(0);
+sliderBtns.forEach ((item,index) => {
+	item.addEventListener('click', () => {
+		hide();
+		showContent(index)
+	})
+})
+
+
+
+
+
+
+
+
 
