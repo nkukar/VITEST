@@ -130,7 +130,7 @@ body {
 	background: url('../img/Vector\ 6.svg');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: contain;
 	padding: 100px 0px;
 }
 
@@ -221,7 +221,7 @@ body {
 	padding-left: 100px;
 	padding-top: 10px;
 	padding-bottom: 30px;
-	align-items: center;
+	align-items: start;
 	margin-top: 25px;
 }
 /* Usage */
