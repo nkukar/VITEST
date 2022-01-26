@@ -511,6 +511,9 @@ body {
 }
 
 @media(max-width:900px) {
+	.header__inner {
+		padding: 22px 0px 10px;
+	}
 	.title {
 		font-size: 18px;
 		line-height: 21px;
@@ -525,15 +528,15 @@ body {
 		width: 76%;
   	}
 	.main-title {
-		font-size: 24px;
-		line-height: 28px;
+		font-size: 34px;
+		line-height: 41px;
 		margin-bottom: 20px;
 		max-width: 200px;
 		text-align: center;
 	}
 	.main-subtitle {
-		font-size: 16px;
-		line-height: 19px;
+		font-size: 18px;
+		line-height: 23px;
 		text-align: center;
 	}
 	.main__text {
@@ -541,12 +544,12 @@ body {
 		
 	}
 	.main__box {
-		top: 30px;
+		top: 65px;
 		left: 0px;
-		transform: scale(1.6);
+		transform: scale(2);
 	}
 	.main__inner {
-		margin-bottom: 10px;
+		margin-bottom: 27px;
 	}
 	.about-text {
 		font-size: 14px;
@@ -554,6 +557,10 @@ body {
 	}
 	.about-item {
 		position: relative;
+	}
+	.about {
+		margin-top: -83px;
+		padding: 77px 0px 47px;
 	}
 	.about__box {
 		position: absolute;
@@ -571,6 +578,7 @@ body {
   	}
 	.partners-img {
 		margin: 0px 10px;
+		width: 26%;
 	}
 	
 	.slider__item-title {
@@ -580,6 +588,31 @@ body {
 	.slider__item-text {
 		font-size: 11px;
 		line-height: 20px;
+	}
+	.usage {
+		padding: 40px 0px 0px 0px;
+  }
+  .products {
+		margin-top: -217px;
+		padding: 297px 0px 51px;
+
+	}
+	.footer-text {
+		font-size: 16px;
+		line-height: 19px;
+		margin-bottom: 20px;
+	}
+	.footer-btn {
+		font-size: 10px;
+		line-height: 12px;
+		margin-bottom: 15px;
+	}
+	.footer-link {
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.footer {
+		padding: 130px 0px 50px;
 	}
 
 
