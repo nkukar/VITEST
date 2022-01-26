@@ -184,12 +184,26 @@ const form = document.querySelector('form'),
 		formBtn = form.querySelector('button');
 
 
-// formBtn.addEventListener('click', () => {
+formBtn.addEventListener('click', (e) => {
+	e.preventDefault();
+	
+	formInputAll.forEach(item => {
+		
+		if(item.value) {
+			const messageUser = {
+				name:formInputAll[0].value,
+				mail:formInputAll[1].value,
+				tel:formInputAll[2].value,
+			}
+			const db = firebase.database().ref('message/' + userCookie).push(messageUser);
+		}
+	})
+ 
 
-// })
+})
 
 
-// const db = firebase.database().ref('message/' + userCookie).push('lox')
+
 
 
 
