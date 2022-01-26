@@ -615,6 +615,92 @@ body {
 		padding: 130px 0px 50px;
 	}
 
+	.modal {
+		display: none;
+	}
+	
+	.modal__inner {
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background-color: rgba(255, 255, 255, 0.5);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		backdrop-filter: blur(3px);
+	
+		
+	}
+	.modal__content {
+		width: 90%;
+		height: auto;
+		background-color: #fff;
+		box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+		border-radius: 10px;
+		padding: 10px 20px;
+		padding-bottom: 35px;
+	}
+	.modal-logo {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+		width: 80%;
+	}
+	.modal-text {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		max-width: 500px;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.input-name {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.form-action {
+		color: rgba(0, 0, 0, 0.7);
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 10px;
+	}
+	.modal-input {
+		width: 100%;
+		height: 30px;
+		border: 1px solid rgba(0, 0, 0, 0.75);
+		border-radius: 3px;
+		margin-bottom: 10px;
+		padding: 5px 5px 5px 10px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	
+	#label1 {
+		width: 18px;
+		height: 18px;
+		margin-right: 15px;
+	
+	}
+	.form-btn {
+		font-size: 14px;
+		line-height: 20px;
+		color: #fff;
+		padding: 10px 15px;
+		border-radius: 7px;
+		background-color: #389BF0;
+		display: block;
+		margin: 0 auto;
+	}
+	
+	.label__inner {
+		margin-bottom: 30px;
+		display: flex;
+		align-items: center;
+	}
+
 
 }
 
