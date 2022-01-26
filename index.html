@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.googleapis.com"> 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/script.js" defer></script>
@@ -23,9 +23,9 @@
 					<img class="logo-img" src="img/logo.png" alt="img">
 				</a>
 
-				<a href="#" class="header__btn">
-					ВОЙТИ В ПРИЛОЖЕНИЕ
-				</a>
+				<button class="header__btn modal-active">
+					ЗАПРОСИТЬ ДОСТУП
+				</button>
 
 			</div>
 		</div>
@@ -34,17 +34,26 @@
 	<section class="main">
 		<div class="container">
 			<div class="main__inner">
-				<div class="main__box">
-					<img class="main-img" src="img/main-img.svg" alt="img">
-				</div>
+			
 				<div class="main__text">
-					<h1 class="main-title" >Connect360</h1>
-					<h1 class="main-subtitle" >Immersive connectivity platform</h1>
-					<button class="main-btn modal-active">ЗАПРОСИТЬ ДОСТУП</button>
+					<h1 class="main-title" >SFERUS
+						Connect360</h1>
+					<h1 class="main-subtitle" > <span>Wireless.</span> 
+						<span>Fast.</span> 
+						<span>Mobile.</span> 
+						<span>For everyone.</span> 
+					</h1>
+					<div class="main__box">
+						<img class="main-img" src="img/main-img-1.png" alt="img">
+					</div>
+				</div>
+				<div class="background-gradient">
+					<img src="img/gradient-bg.png" alt="">
 				</div>
 			</div>
 			<div class="partners">
 				<img class="partners-img" src="img/ricoh.png" alt="img">
+				<img class="partners-img" src="img/LETI.svg" alt="img">
 			</div>
 			
 		</div>
@@ -94,7 +103,7 @@
 						<img class="slider-img" src="img/slider-item-1.jpg" alt="img">
 						<div class="slider__item-box">
 							<h4 class="slider__item-title">Корпоративные видеоконференции</h4>
-							<p class="slider__item-text">Connect360 можно использовать для
+							<p class="slider__item-text"><span class="text--bold" >Connect360 </span> можно использовать для
 								проведения внутрикорпоративных
 								совещаний, используя только камеру 360
 								в центре комнаты и телефон/ПК/ноутбук.
@@ -109,7 +118,7 @@
 						<img class="slider-img" src="img/slider-item-2.png" alt="img">
 						<div class="slider__item-box">
 							<h4 class="slider__item-title">Мероприятия и церемонии</h4>
-							<p class="slider__item-text">Connect360 поможет Вам транслировать
+							<p class="slider__item-text"><span class="text--bold" >Connect360 </span> поможет Вам транслировать
 								мероприятия или церемонии для
 								большого количества онлайн зрителей.
 								Зрители также получат возможность
@@ -121,7 +130,7 @@
 						<img class="slider-img" src="img/slider-item-3.png" alt="img">
 						<div class="slider__item-box">
 							<h4 class="slider__item-title">Наблюдение и прозрачность</h4>
-							<p class="slider__item-text">Connect360 помогает предприятиям стать
+							<p class="slider__item-text"><span class="text--bold" >Connect360 </span> помогает предприятиям стать
 								более прозрачными. Например, клиент
 								может следить за процессом производства
 								своего товара/услуги или, наоборот,
@@ -135,7 +144,7 @@
 						<div class="slider__item-box">
 							<h4 class="slider__item-title">Удаленный доступ к критическим
 								ситуациям</h4>
-							<p class="slider__item-text">Connect360 можно использовать в
+							<p class="slider__item-text"><span class="text--bold" >Connect360 </span> можно использовать в
 								критических ситуациях, требующих
 								участия специалиста без возможности
 								физического присутствия. Специалист
@@ -148,7 +157,7 @@
 						<img class="slider-img" src="img/slider-item-5.png" alt="img">
 						<div class="slider__item-box">
 							<h4 class="slider__item-title">Образование</h4>
-							<p class="slider__item-text">Connect360 помогает студентам удаленно
+							<p class="slider__item-text"><span class="text--bold" >Connect360 </span> помогает студентам удаленно
 								учиться вместе с очными студентами из
 								любой точки мира. Также Connect360
 								можно использовать преподавателям,
@@ -160,7 +169,7 @@
 						<img class="slider-img" src="img/slider-item-6.png" alt="img">
 						<div class="slider__item-box">
 							<h4 class="slider__item-title">Виртуальный туризм</h4>
-							<p class="slider__item-text">Connect360 позволяет удаленно
+							<p class="slider__item-text"><span class="text--bold" >Connect360 </span>позволяет удаленно
 								путешествовать по миру и видеть, что
 								происходит вокруг. Мы рекомендуем
 								использовать шлем виртуальной
@@ -174,7 +183,7 @@
 						<div class="slider__item-box">
 							<h4 class="slider__item-title">Развитие недвижимости,
 								маркетинг и продажи</h4>
-							<p class="slider__item-text">Connect360 позволяет Вам или Вашей
+							<p class="slider__item-text"> <span class="text--bold" >Connect360 </span> позволяет Вам или Вашей
 								компании продемонстрировать
 								недвижимость с минимальными
 								усилиями. Покупатели или арендаторы
@@ -191,9 +200,11 @@
 			<div class="products__inner">
 				<div class="products__btns">
 					<button class="products-btn products-btn--active" >Web App</button>
-					<button class="products-btn" >Mobile App</button>
-					<button class="products-btn" >Onboard</button>
-					<button class="products-btn" >VR возможности</button>
+					<button  class="products-btn" >Mobile App</button>
+					<button   class="products-btn" >Onboard</button>
+					<button  class="products-btn" >VR возможности</button>
+					<button   class="products-btn--arrow arrow-left" ><img style="pointer-events: none;" src="img/arrow-left.svg" alt="img"></button>
+					<button   class="products-btn--arrow arrow-right" ><img style="pointer-events: none;"  src="img/arrow-right.svg" alt="img"></button>
 				</div>
 				<div class="products__items">
 					<div class="products__item">
@@ -206,41 +217,32 @@
 					</div>
 					<div  class="products__item">
 						<img class="products__item-img" src="img/products-item-2.png" alt="img">
-						<p class="products__item-text">Web-версия приложения даёт возможность
-							подключиться к онлайн сеансу по ссылке
-							в браузере, моментально и без
-							дополнительных установок.</p>
+						<p class="products__item-text">Мобильное приложение позволит Вам не привязываться к определенному месту. Выходите на связь с любой точки мира, ведь для подключения к сеансу нужен будет только Интренет, Смартфон и Камера 360.</p>
 
 					</div>
 					<div  class="products__item">
 						<img class="products__item-img" src="img/products-item-3.png" alt="img">
-						<p class="products__item-text">Web-версия приложения даёт возможность
-							подключиться к онлайн сеансу по ссылке
-							в браузере, моментально и без
-							дополнительных установок.</p>
+						<p class="products__item-text">Наша компания предоставляет услуги по внедрению Искуственного Интелекта и Компьютерного Зрения в систему Connect360. Например, Connect360 можно использовать в строительстве, для автоматического отслеживания соблюдения техники безопасности.  </p>
 
 					</div>
 					<div  class="products__item">
 						<img class="products__item-img" src="img/products-item-4.png" alt="img">
-						<p class="products__item-text">Web-версия приложения даёт возможность
-							подключиться к онлайн сеансу по ссылке
-							в браузере, моментально и без
-							дополнительных установок.</p>
+						<p class="products__item-text">Connect360 поддерживает VR-технологии. Подключившись к нашей системе, в VR-очках, Вы сможете ощутить эффект присутствия и повысить свою эффективность или эфективность своих сотрудников. </p>
 
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<footer class="footer" >
+	<!-- 	<footer class="footer" >
 		<div class="container">
 			<div class="footer__content">
 				<p class="footer-text">Запросите демо-версию сейчас</p>
-				<button class="footer-btn modal-active" >ЗАПРОСИТЬ ДОСТУП</button>
+				<button class="footer-btn modal-active"> ЗАПРОСИТЬ ДОСТУП </button>
 				<a href="#" class="footer-link">info@gmail.com</a>
 			</div>
 		</div>
-	</footer>
+	</footer> -->
 
 
 
@@ -263,9 +265,11 @@
 						флажок, вы соглашаетесь с обработкой Sferus360 всех данных, предоставленных 
 						вами в форме выше.
 					</div>
+					<div class="label__inner">
+						<input id="label1" type="checkbox">
+						<label for="label1">Я согласен</label>
+					</div>
 					
-					<input id="label1" type="checkbox">
-					<label for="label1">Я согласен</label>
 					<button class="form-btn" >ЗАПРОСИТЬ ДОСТУП</button>
 				</form>
 	
