@@ -173,6 +173,7 @@ body {
 	margin-bottom: 18px;
 	
 }
+ 
 .about__items {
 	padding: 390px 0px;
 	display: flex;
@@ -194,13 +195,29 @@ body {
 	padding-bottom: 350px;
 	
 }
+.about-text--gradient {
+	position: relative;
+}
+.about-text--gradient::after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 500px;
+	background-image: url('../img/about-gradient-1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	bottom: -356%;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
 
 /* About */
 
 /* Usage */
 
 .usage {
-	padding: 19px 0px 190px;
+	padding: 19px 0px 100px;
 }
 
 .usage__items {
@@ -240,6 +257,7 @@ body {
 	transform: translateY(-65px);
 	margin: 0 auto;
 	display: block;
+	object-fit: fill;
 }
 .usage__item-box {
 	padding: 0px 30px 40px;
