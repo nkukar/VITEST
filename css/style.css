@@ -217,7 +217,7 @@ body {
 /* Usage */
 
 .usage {
-	padding: 19px 0px 100px;
+	padding: 19px 0px 0px;
 }
 
 .usage__items {
