@@ -281,8 +281,15 @@ body {
 }
 .usage__item-box {
 	padding: 0px 30px 40px;
+	margin-top: -30px;
 }
-
+.usage__item-title {
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 30px;
+	letter-spacing: 0.02em;
+	color: #000000;
+}
 .usage-text {
 	font-weight: normal;
 	font-size: 18px;
@@ -314,6 +321,7 @@ body {
 	flex-direction: column;
 	margin-top: 40px;
 }
+
 .products-btn {
 	width: 280px;
 	height: 60px;
@@ -694,8 +702,9 @@ body {
 	.products__item-text {
 		font-size: 14px;
 		line-height: 22px;
-		text-align: center;
-	}
+		/* text-align: center; */
+		width: 100%;
+  	}
 	.products__btns {
 		position: relative;
 		flex-direction: row;
