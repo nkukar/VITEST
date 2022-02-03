@@ -556,6 +556,7 @@ body {
 		grid-gap: 0px;
 		align-items: center;
 		padding-bottom: 0px;
+		padding-top: 40px;
 		
 	}
 	.usage__item-img {
@@ -571,9 +572,9 @@ body {
 		position: absolute;
 		width: 100%;
 		height: 250px;
-		top: 2px;
-		left: 4px;
-		right: 0px;
+		top: -7px;
+    	left: 0px;
+    	right: 0px;
 		background-image: url(../img/usage-item-bg.png);
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -585,7 +586,6 @@ body {
 		font-size: 19px;
 		line-height: 28px;
 		letter-spacing: 0.02em;
-		margin-bottom: 7px;
 		margin-top: -52px;
 	}
 	.usage__item-box {
@@ -593,7 +593,7 @@ body {
   }
 	.usage__item {
 		margin: 15px 0px;
-		width: 90%;
+		width: 78%;
 		min-height: 250px;
 	}
 	.about-text--gradient::after {
@@ -623,11 +623,11 @@ body {
 	.about-subtitle {
 		font-size: 17px;
     line-height: 22px;
-    margin-bottom: 15px;
+	 margin-bottom: 12px;
 	}
 	.about-text {
-		font-size: 17px;
-   	line-height: 27px;
+		font-size: 14px;
+		line-height: 25px;  
 	}
 	.about__item-title {
 		font-size: 17px;
@@ -720,8 +720,8 @@ body {
 		margin-bottom: 10px;
   }
   .usage-text {
-	font-size: 17px;
-	line-height: 27px;
+		font-size: 14px;
+		line-height: 23px;
   }
 	.footer-btn {
 		font-size: 10px;
